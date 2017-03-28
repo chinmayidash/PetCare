@@ -1,0 +1,56 @@
+/* custom css file*/
+
+body {
+padding-top: 70px;
+}
+
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	text-align: center;
+	color: #999;
+}
+
+.glyphicon {
+	color: #cdae51;
+}
+
+.glyphicon-pushpin,.glyphicon-heart {
+	color: #3f2822;
+}
+.pull-right.img-responsive {
+	margin: 0 0 1em 1em;
+}
+.btn-info {
+	background-color: #cdae51;
+	border-color: #3f2822;
+	color: #fff;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #3F2B22;
+  border-color: #333;
+}
+.breadcrumb > li + li:before {
+  content: none;
+}
+.navbar-inverse .navbar-toggle {                   /*IMPORTANT */
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+
